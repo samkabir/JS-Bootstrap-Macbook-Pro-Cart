@@ -2,7 +2,7 @@
 function priceUpdate(priceType, priceNumber) {
     const price = document.getElementById(priceType);
     price.innerText = priceNumber;
-    updateTotalCost()
+    updateTotalCost();
 }
 // Function for Updating the Final Total
 
